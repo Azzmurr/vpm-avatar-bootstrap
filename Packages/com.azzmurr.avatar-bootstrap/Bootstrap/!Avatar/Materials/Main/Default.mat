@@ -263,19 +263,19 @@ Material:
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _EmissionMask:
-        m_Texture: {fileID: 2800000, guid: 6d52249aaa316994ab2177190d8bf4e4, type: 3}
+        m_Texture: {fileID: 2800000, guid: a43e3197e3af367458fa25637d0ace57, type: 3}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _EmissionMask1:
-        m_Texture: {fileID: 2800000, guid: 6d52249aaa316994ab2177190d8bf4e4, type: 3}
+        m_Texture: {fileID: 2800000, guid: a43e3197e3af367458fa25637d0ace57, type: 3}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _EmissionMask2:
-        m_Texture: {fileID: 2800000, guid: 6d52249aaa316994ab2177190d8bf4e4, type: 3}
+        m_Texture: {fileID: 2800000, guid: a43e3197e3af367458fa25637d0ace57, type: 3}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _EmissionMask3:
-        m_Texture: {fileID: 2800000, guid: 6d52249aaa316994ab2177190d8bf4e4, type: 3}
+        m_Texture: {fileID: 2800000, guid: a43e3197e3af367458fa25637d0ace57, type: 3}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _EmissionScrollingCurve:
@@ -1582,7 +1582,7 @@ Material:
     - _EnableEmissionStrengthAudioLink: 0
     - _EnableEnvironmentalRim: 0
     - _EnableFlipbook: 0
-    - _EnableGITDEmission: 0
+    - _EnableGITDEmission: 1
     - _EnableGITDEmission1: 0
     - _EnableGITDEmission2: 0
     - _EnableGITDEmission3: 0
@@ -3685,7 +3685,7 @@ Material:
     - m_postprocessing: 0
     - m_renderingCategory: 0
     - m_renderingOptions: 0
-    - m_specialFXCategory: 0
+    - m_specialFXCategory: 1
     - m_start_ALDecalSpectrum: 0
     - m_start_ALVolumeColor: 0
     - m_start_Alpha: 0
@@ -3840,10 +3840,10 @@ Material:
     - m_start_dissolveMasking: 0
     - m_start_distanceFade: 0
     - m_start_distortionFlow: 0
-    - m_start_emission1Options: 0
-    - m_start_emission2Options: 0
-    - m_start_emission3Options: 0
-    - m_start_emissionOptions: 0
+    - m_start_emission1Options: 1
+    - m_start_emission2Options: 1
+    - m_start_emission3Options: 1
+    - m_start_emissionOptions: 1
     - m_start_emissions: 1
     - m_start_flipBook: 0
     - m_start_flipbookHueShift: 0
@@ -4209,7 +4209,7 @@ Material:
     - s_start_EmissionHueShift1: 0
     - s_start_EmissionHueShift2: 0
     - s_start_EmissionHueShift3: 0
-    - s_start_EmissionLightBased0: 0
+    - s_start_EmissionLightBased0: 1
     - s_start_EmissionLightBased1: 0
     - s_start_EmissionLightBased2: 0
     - s_start_EmissionLightBased3: 0
@@ -4544,10 +4544,10 @@ Material:
     - _EmissionMap2Pan: {r: 0, g: 0, b: 0, a: 0}
     - _EmissionMap3Pan: {r: 0, g: 0, b: 0, a: 0}
     - _EmissionMapPan: {r: 0, g: 0, b: 0, a: 0}
-    - _EmissionMask1Pan: {r: 0, g: 0, b: 0, a: 0}
-    - _EmissionMask2Pan: {r: 0, g: 0, b: 0, a: 0}
-    - _EmissionMask3Pan: {r: 0, g: 0, b: 0, a: 0}
-    - _EmissionMaskPan: {r: 0, g: 0, b: 0, a: 0}
+    - _EmissionMask1Pan: {r: 0, g: -0.36, b: 0, a: 0}
+    - _EmissionMask2Pan: {r: 0, g: -0.36, b: 0, a: 0}
+    - _EmissionMask3Pan: {r: 0, g: -0.36, b: 0, a: 0}
+    - _EmissionMaskPan: {r: 0, g: -0.36, b: 0, a: 0}
     - _EmissiveScroll_Direction: {r: 0, g: -10, b: 0, a: 0}
     - _EmissiveScroll_Direction1: {r: 0, g: -10, b: 0, a: 0}
     - _EmissiveScroll_Direction2: {r: 0, g: -10, b: 0, a: 0}
