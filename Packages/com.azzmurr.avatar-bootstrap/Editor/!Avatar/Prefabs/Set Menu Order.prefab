@@ -1,0 +1,243 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &6057553408619518492
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1962840658737645855}
+  - component: {fileID: 6508278400950264048}
+  - component: {fileID: 5220288556048616364}
+  - component: {fileID: 8863379157633509658}
+  - component: {fileID: 7022566103409545408}
+  - component: {fileID: 503752333198416303}
+  - component: {fileID: 3708859454981253241}
+  - component: {fileID: 3003780371869124174}
+  m_Layer: 0
+  m_Name: Set Menu Order
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1962840658737645855
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6057553408619518492}
+  serializedVersion: 2
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 1
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &6508278400950264048
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6057553408619518492}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d9e94e501a2d4c95bff3d5601013d923, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  version: 3
+  unityVersion: 2022.3.22f1
+  vrcfuryVersion: 1.1238.0
+  somethingIsBroken: 0
+  config:
+    features: []
+  content:
+    rid: 219790860453675035
+  references:
+    version: 2
+    RefIds:
+    - rid: 219790860453675035
+      type: {class: ReorderMenuItem, ns: VF.Model.Feature, asm: VRCFury}
+      data:
+        version: 0
+        path: Avatar
+        position: 0
+--- !u!114 &5220288556048616364
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6057553408619518492}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d9e94e501a2d4c95bff3d5601013d923, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  version: 3
+  unityVersion: 2022.3.22f1
+  vrcfuryVersion: 1.1238.0
+  somethingIsBroken: 0
+  config:
+    features: []
+  content:
+    rid: 219790770571837473
+  references:
+    version: 2
+    RefIds:
+    - rid: 219790770571837473
+      type: {class: ReorderMenuItem, ns: VF.Model.Feature, asm: VRCFury}
+      data:
+        version: 0
+        path: Audiolink
+        position: 1
+--- !u!114 &8863379157633509658
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6057553408619518492}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d9e94e501a2d4c95bff3d5601013d923, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  version: 3
+  unityVersion: 2022.3.22f1
+  vrcfuryVersion: 1.1238.0
+  somethingIsBroken: 0
+  config:
+    features: []
+  content:
+    rid: 219790770571837474
+  references:
+    version: 2
+    RefIds:
+    - rid: 219790770571837474
+      type: {class: ReorderMenuItem, ns: VF.Model.Feature, asm: VRCFury}
+      data:
+        version: 0
+        path: GoGo Loco
+        position: 2
+--- !u!114 &7022566103409545408
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6057553408619518492}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d9e94e501a2d4c95bff3d5601013d923, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  version: 3
+  unityVersion: 2022.3.22f1
+  vrcfuryVersion: 1.1238.0
+  somethingIsBroken: 0
+  config:
+    features: []
+  content:
+    rid: 219790770571837475
+  references:
+    version: 2
+    RefIds:
+    - rid: 219790770571837475
+      type: {class: ReorderMenuItem, ns: VF.Model.Feature, asm: VRCFury}
+      data:
+        version: 0
+        path: Face Tracking
+        position: 3
+--- !u!114 &503752333198416303
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6057553408619518492}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d9e94e501a2d4c95bff3d5601013d923, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  version: 3
+  unityVersion: 2022.3.22f1
+  vrcfuryVersion: 1.1238.0
+  somethingIsBroken: 0
+  config:
+    features: []
+  content:
+    rid: 219790770571837476
+  references:
+    version: 2
+    RefIds:
+    - rid: 219790770571837476
+      type: {class: ReorderMenuItem, ns: VF.Model.Feature, asm: VRCFury}
+      data:
+        version: 0
+        path: SPS
+        position: 4
+--- !u!114 &3708859454981253241
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6057553408619518492}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d9e94e501a2d4c95bff3d5601013d923, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  version: 3
+  unityVersion: 2022.3.22f1
+  vrcfuryVersion: 1.1238.0
+  somethingIsBroken: 0
+  config:
+    features: []
+  content:
+    rid: 219790770571837477
+  references:
+    version: 2
+    RefIds:
+    - rid: 219790770571837477
+      type: {class: ReorderMenuItem, ns: VF.Model.Feature, asm: VRCFury}
+      data:
+        version: 0
+        path: Items
+        position: 5
+--- !u!114 &3003780371869124174
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6057553408619518492}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d9e94e501a2d4c95bff3d5601013d923, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  version: 3
+  unityVersion: 2022.3.22f1
+  vrcfuryVersion: 1.1238.0
+  somethingIsBroken: 0
+  config:
+    features: []
+  content:
+    rid: 219790860481724416
+  references:
+    version: 2
+    RefIds:
+    - rid: 219790860481724416
+      type: {class: ReorderMenuItem, ns: VF.Model.Feature, asm: VRCFury}
+      data:
+        version: 0
+        path: Items/Clothing
+        position: 0
