@@ -1,0 +1,153 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &204556556703644765
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 6314684121860543373}
+  - component: {fileID: 6530326065269031959}
+  - component: {fileID: -682161020587721288}
+  - component: {fileID: -2625410357795052742}
+  - component: {fileID: -3472904594781771595}
+  m_Layer: 0
+  m_Name: '[Avian] Move Default Menu Items'
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &6314684121860543373
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 204556556703644765}
+  serializedVersion: 2
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 1
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &6530326065269031959
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 204556556703644765}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d9e94e501a2d4c95bff3d5601013d923, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  version: 3
+  unityVersion: 2022.3.22f1
+  vrcfuryVersion: 1.1238.0
+  somethingIsBroken: 0
+  config:
+    features: []
+  content:
+    rid: 5368276808671690951
+  references:
+    version: 2
+    RefIds:
+    - rid: 5368276808671690951
+      type: {class: MoveMenuItem, ns: VF.Model.Feature, asm: VRCFury}
+      data:
+        version: 3
+        fromPath: Controls
+        toPath: Avatar/Controls
+--- !u!114 &-682161020587721288
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 204556556703644765}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d9e94e501a2d4c95bff3d5601013d923, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  version: 3
+  unityVersion: 2022.3.22f1
+  vrcfuryVersion: 1.1238.0
+  somethingIsBroken: 0
+  config:
+    features: []
+  content:
+    rid: 5368276808671690952
+  references:
+    version: 2
+    RefIds:
+    - rid: 5368276808671690952
+      type: {class: MoveMenuItem, ns: VF.Model.Feature, asm: VRCFury}
+      data:
+        version: 3
+        fromPath: Tail Control
+        toPath: Avatar/Tail Control
+--- !u!114 &-2625410357795052742
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 204556556703644765}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d9e94e501a2d4c95bff3d5601013d923, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  version: 3
+  unityVersion: 2022.3.22f1
+  vrcfuryVersion: 1.1238.0
+  somethingIsBroken: 0
+  config:
+    features: []
+  content:
+    rid: 5368276808671690953
+  references:
+    version: 2
+    RefIds:
+    - rid: 5368276808671690953
+      type: {class: MoveMenuItem, ns: VF.Model.Feature, asm: VRCFury}
+      data:
+        version: 3
+        fromPath: Wing Control
+        toPath: Avatar/Wing Control
+--- !u!114 &-3472904594781771595
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 204556556703644765}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d9e94e501a2d4c95bff3d5601013d923, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  version: 3
+  unityVersion: 2022.3.22f1
+  vrcfuryVersion: 1.1238.0
+  somethingIsBroken: 0
+  config:
+    features: []
+  content:
+    rid: 5368276808671690954
+  references:
+    version: 2
+    RefIds:
+    - rid: 5368276808671690954
+      type: {class: MoveMenuItem, ns: VF.Model.Feature, asm: VRCFury}
+      data:
+        version: 3
+        fromPath: Expressions
+        toPath: Avatar/Expressions

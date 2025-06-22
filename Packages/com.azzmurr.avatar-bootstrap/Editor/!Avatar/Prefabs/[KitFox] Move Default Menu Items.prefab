@@ -1,0 +1,183 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &3331046038407145092
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1765633041872239277}
+  - component: {fileID: 4542414896831147263}
+  - component: {fileID: 2145560202272022940}
+  - component: {fileID: 922695604074685153}
+  - component: {fileID: 6132698095516278402}
+  - component: {fileID: 969438647662031397}
+  m_Layer: 0
+  m_Name: '[KitFox] Move Default Menu Items'
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1765633041872239277
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3331046038407145092}
+  serializedVersion: 2
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: -10.927259, y: -10.019686, z: -26.971931}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 1
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &4542414896831147263
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3331046038407145092}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d9e94e501a2d4c95bff3d5601013d923, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  version: 3
+  unityVersion: 2022.3.22f1
+  vrcfuryVersion: 1.1238.0
+  somethingIsBroken: 0
+  config:
+    features: []
+  content:
+    rid: 6988697823829819598
+  references:
+    version: 2
+    RefIds:
+    - rid: 6988697823829819598
+      type: {class: MoveMenuItem, ns: VF.Model.Feature, asm: VRCFury}
+      data:
+        version: 3
+        fromPath: Toggles
+        toPath: Avatar/Toggles
+--- !u!114 &2145560202272022940
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3331046038407145092}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d9e94e501a2d4c95bff3d5601013d923, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  version: 3
+  unityVersion: 2022.3.22f1
+  vrcfuryVersion: 1.1238.0
+  somethingIsBroken: 0
+  config:
+    features: []
+  content:
+    rid: 6988697823829819599
+  references:
+    version: 2
+    RefIds:
+    - rid: 6988697823829819599
+      type: {class: MoveMenuItem, ns: VF.Model.Feature, asm: VRCFury}
+      data:
+        version: 3
+        fromPath: Body
+        toPath: Avatar/Body
+--- !u!114 &922695604074685153
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3331046038407145092}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d9e94e501a2d4c95bff3d5601013d923, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  version: 3
+  unityVersion: 2022.3.22f1
+  vrcfuryVersion: 1.1238.0
+  somethingIsBroken: 0
+  config:
+    features: []
+  content:
+    rid: 6988697823829819600
+  references:
+    version: 2
+    RefIds:
+    - rid: 6988697823829819600
+      type: {class: MoveMenuItem, ns: VF.Model.Feature, asm: VRCFury}
+      data:
+        version: 3
+        fromPath: Contacts
+        toPath: Avatar/Contacts
+--- !u!114 &6132698095516278402
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3331046038407145092}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d9e94e501a2d4c95bff3d5601013d923, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  version: 3
+  unityVersion: 2022.3.22f1
+  vrcfuryVersion: 1.1238.0
+  somethingIsBroken: 0
+  config:
+    features: []
+  content:
+    rid: 6988697823829819601
+  references:
+    version: 2
+    RefIds:
+    - rid: 6988697823829819601
+      type: {class: MoveMenuItem, ns: VF.Model.Feature, asm: VRCFury}
+      data:
+        version: 3
+        fromPath: Dynamics
+        toPath: Avatar/Dynamics
+--- !u!114 &969438647662031397
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3331046038407145092}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d9e94e501a2d4c95bff3d5601013d923, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  version: 3
+  unityVersion: 2022.3.22f1
+  vrcfuryVersion: 1.1238.0
+  somethingIsBroken: 0
+  config:
+    features: []
+  content:
+    rid: 6988697823829819602
+  references:
+    version: 2
+    RefIds:
+    - rid: 6988697823829819602
+      type: {class: MoveMenuItem, ns: VF.Model.Feature, asm: VRCFury}
+      data:
+        version: 3
+        fromPath: Clothes
+        toPath: Items/Clothes

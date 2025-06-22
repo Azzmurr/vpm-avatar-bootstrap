@@ -1,0 +1,123 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &6376240812370963115
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 8603108497428974473}
+  - component: {fileID: 5467964799506110201}
+  - component: {fileID: 3229731176107652514}
+  - component: {fileID: 8742138019752669834}
+  m_Layer: 0
+  m_Name: '[Proto] Move Default Menu Items'
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &8603108497428974473
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6376240812370963115}
+  serializedVersion: 2
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 1
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &5467964799506110201
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6376240812370963115}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d9e94e501a2d4c95bff3d5601013d923, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  version: 3
+  unityVersion: 2022.3.22f1
+  vrcfuryVersion: 1.1238.0
+  somethingIsBroken: 0
+  config:
+    features: []
+  content:
+    rid: 8733447762669731873
+  references:
+    version: 2
+    RefIds:
+    - rid: 8733447762669731873
+      type: {class: MoveMenuItem, ns: VF.Model.Feature, asm: VRCFury}
+      data:
+        version: 3
+        fromPath: Choose Tail
+        toPath: Avatar/Choose Tail
+--- !u!114 &3229731176107652514
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6376240812370963115}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d9e94e501a2d4c95bff3d5601013d923, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  version: 3
+  unityVersion: 2022.3.22f1
+  vrcfuryVersion: 1.1238.0
+  somethingIsBroken: 0
+  config:
+    features: []
+  content:
+    rid: 8733447762669731874
+  references:
+    version: 2
+    RefIds:
+    - rid: 8733447762669731874
+      type: {class: MoveMenuItem, ns: VF.Model.Feature, asm: VRCFury}
+      data:
+        version: 3
+        fromPath: Choose Fluff
+        toPath: Avatar/Choose Fluff
+--- !u!114 &8742138019752669834
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6376240812370963115}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d9e94e501a2d4c95bff3d5601013d923, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  version: 3
+  unityVersion: 2022.3.22f1
+  vrcfuryVersion: 1.1238.0
+  somethingIsBroken: 0
+  config:
+    features: []
+  content:
+    rid: 8733447762669731875
+  references:
+    version: 2
+    RefIds:
+    - rid: 8733447762669731875
+      type: {class: MoveMenuItem, ns: VF.Model.Feature, asm: VRCFury}
+      data:
+        version: 3
+        fromPath: Shapes
+        toPath: Avatar/Shapes
