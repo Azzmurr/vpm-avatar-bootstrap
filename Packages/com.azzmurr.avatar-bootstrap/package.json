@@ -1,7 +1,7 @@
 {
   "name": "com.azzmurr.avatar-bootstrap",
   "displayName": "Azzmurr - Avatar Bootstrapper",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "unity": "2022.3",
   "description": "Simple Package with diferent assets to help with avatar creation",
   "vrchatVersion": "2022.1.1",
@@ -13,7 +13,8 @@
     "io.github.rurre.pumkinsavatartools": ">=1.4.0",
     "de.thryrallo.vrc.avatar-performance-tools": ">=1.3.0",
     "com.vrcfury.vrcfury": ">=1.1238.0",
-    "wholesomevr.sps-configurator": ">=2.0.0"
+    "wholesomevr.sps-configurator": ">=2.0.0",
+    "adjerry91.vrcft.templates": ">=1.0.0"
   },
   "author": {
     "name": "Azzmurr",
