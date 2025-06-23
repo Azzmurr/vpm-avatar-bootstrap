@@ -1532,7 +1532,7 @@ Material:
     - _EmissionScrollingVertexColor1: 0
     - _EmissionScrollingVertexColor2: 0
     - _EmissionScrollingVertexColor3: 0
-    - _EmissionStrength: 1
+    - _EmissionStrength: 2
     - _EmissionStrength1: 0
     - _EmissionStrength2: 0
     - _EmissionStrength3: 0
@@ -3678,7 +3678,7 @@ Material:
     - m_end_voronoiRandom: 0
     - m_lightingCategory: 0
     - m_lightingOptions: 0
-    - m_mainCategory: 0
+    - m_mainCategory: 1
     - m_mainOptions: 1
     - m_modifierCategory: 0
     - m_outlineOptions: 0
@@ -4420,10 +4420,10 @@ Material:
     - _AudioLinkDecal3SideMin: {r: 0, g: 0, b: 0, a: 0}
     - _AudioLinkDissolveAlpha: {r: 0, g: 0, b: 0, a: 0}
     - _AudioLinkDissolveDetail: {r: 0, g: 0, b: 0, a: 0}
-    - _AudioLinkEmission0CenterOut: {r: 0, g: 1, b: 0, a: 0}
-    - _AudioLinkEmission1CenterOut: {r: 0, g: 1, b: 0, a: 0}
-    - _AudioLinkEmission2CenterOut: {r: 0, g: 1, b: 0, a: 0}
-    - _AudioLinkEmission3CenterOut: {r: 0, g: 1, b: 0, a: 0}
+    - _AudioLinkEmission0CenterOut: {r: 0, g: 2, b: 0, a: 0}
+    - _AudioLinkEmission1CenterOut: {r: 0, g: 2, b: 0, a: 0}
+    - _AudioLinkEmission2CenterOut: {r: 0, g: 2, b: 0, a: 0}
+    - _AudioLinkEmission3CenterOut: {r: 0, g: 2, b: 0, a: 0}
     - _AudioLinkFlipbookAlpha: {r: 1, g: 1, b: 0, a: 0}
     - _AudioLinkFlipbookEmission: {r: 0, g: 0, b: 0, a: 0}
     - _AudioLinkFlipbookFrame: {r: 0, g: 0, b: 0, a: 0}
