@@ -16,6 +16,7 @@ GameObject:
   - component: {fileID: 503752333198416303}
   - component: {fileID: 3708859454981253241}
   - component: {fileID: 3003780371869124174}
+  - component: {fileID: -7308342706957737921}
   m_Layer: 0
   m_Name: Set Menu Order
   m_TagString: Untagged
@@ -239,5 +240,34 @@ MonoBehaviour:
       type: {class: ReorderMenuItem, ns: VF.Model.Feature, asm: VRCFury}
       data:
         version: 0
-        path: Items/Clothing
+        path: Items/Clothes
         position: 0
+--- !u!114 &-7308342706957737921
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6057553408619518492}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d9e94e501a2d4c95bff3d5601013d923, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  version: 3
+  unityVersion: 2022.3.22f1
+  vrcfuryVersion: 1.1238.0
+  somethingIsBroken: 0
+  config:
+    features: []
+  content:
+    rid: 1770319916851789824
+  references:
+    version: 2
+    RefIds:
+    - rid: 1770319916851789824
+      type: {class: MoveMenuItem, ns: VF.Model.Feature, asm: VRCFury}
+      data:
+        version: 3
+        fromPath: Items/Clothing
+        toPath: Items/Clothes
