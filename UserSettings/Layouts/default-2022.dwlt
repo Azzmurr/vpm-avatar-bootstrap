@@ -14,8 +14,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   m_PixelRect:
     serializedVersion: 2
-    x: 260
-    y: 155
+    x: 643
+    y: 127
     width: 2680
     height: 1349
   m_ShowMode: 4
@@ -214,7 +214,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 1228
     y: 0
-    width: 101
+    width: 431
     height: 961
   m_MinSize: {x: 202, y: 221}
   m_MaxSize: {x: 4002, y: 4021}
@@ -238,9 +238,9 @@ MonoBehaviour:
   m_Children: []
   m_Position:
     serializedVersion: 2
-    x: 1329
+    x: 1659
     y: 0
-    width: 516
+    width: 316
     height: 961
   m_MinSize: {x: 232, y: 271}
   m_MaxSize: {x: 10002, y: 10021}
@@ -264,9 +264,9 @@ MonoBehaviour:
   m_Children: []
   m_Position:
     serializedVersion: 2
-    x: 1845
+    x: 1975
     y: 0
-    width: 835
+    width: 705
     height: 961
   m_MinSize: {x: 276, y: 71}
   m_MaxSize: {x: 4001, y: 4021}
@@ -326,9 +326,9 @@ MonoBehaviour:
     m_Tooltip: 
   m_Pos:
     serializedVersion: 2
-    x: 2105
-    y: 185
-    width: 834
+    x: 2618
+    y: 157
+    width: 704
     height: 940
   m_SerializedDataModeController:
     m_DataMode: 0
@@ -374,8 +374,8 @@ MonoBehaviour:
     m_Tooltip: 
   m_Pos:
     serializedVersion: 2
-    x: 260
-    y: 185
+    x: 643
+    y: 157
     width: 1227
     height: 940
   m_SerializedDataModeController:
@@ -773,7 +773,7 @@ MonoBehaviour:
   m_Rotation:
     m_Target: {x: 0.075936235, y: -0.9237685, z: 0.25298792, w: 0.27728075}
     speed: 2
-    m_Value: {x: 0.07593616, y: -0.9237676, z: 0.25298768, w: 0.27728048}
+    m_Value: {x: -0.07593616, y: 0.9237676, z: -0.25298768, w: -0.27728048}
   m_Size:
     m_Target: 1.4459112
     speed: 2
@@ -823,9 +823,9 @@ MonoBehaviour:
     m_Tooltip: 
   m_Pos:
     serializedVersion: 2
-    x: 1488
-    y: 185
-    width: 99
+    x: 1871
+    y: 157
+    width: 429
     height: 940
   m_SerializedDataModeController:
     m_DataMode: 0
@@ -840,7 +840,7 @@ MonoBehaviour:
   m_SceneHierarchy:
     m_TreeViewState:
       scrollPos: {x: 0, y: 0}
-      m_SelectedIDs: 
+      m_SelectedIDs: 205f0000
       m_LastClickedID: 0
       m_ExpandedIDs: f6faffff
       m_RenameOverlay:
@@ -887,9 +887,9 @@ MonoBehaviour:
     m_Tooltip: 
   m_Pos:
     serializedVersion: 2
-    x: 1589
-    y: 185
-    width: 514
+    x: 2302
+    y: 157
+    width: 314
     height: 940
   m_SerializedDataModeController:
     m_DataMode: 0
@@ -911,7 +911,8 @@ MonoBehaviour:
     m_ShowAllHits: 0
     m_SkipHidden: 0
     m_SearchArea: 1
-    m_Folders: []
+    m_Folders:
+    - Packages/com.azzmurr.avatar-bootstrap
     m_Globs: []
     m_OriginalText: 
     m_ImportLogFlags: 0
@@ -927,7 +928,7 @@ MonoBehaviour:
     scrollPos: {x: 0, y: 0}
     m_SelectedIDs: 64320100
     m_LastClickedID: 78436
-    m_ExpandedIDs: 00000000105f0000125f0000145f0000165f0000185f00001a5f00001c5f00001e5f0000205f0000225f0000245f0000265f0000
+    m_ExpandedIDs: 000000001e5f0000205f0000225f0000245f0000265f0000285f00002a5f00002c5f00002e5f0000305f0000325f0000345f0000365f0000385f0000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -955,7 +956,7 @@ MonoBehaviour:
     scrollPos: {x: 0, y: 0}
     m_SelectedIDs: 
     m_LastClickedID: 0
-    m_ExpandedIDs: ffffffff00000000105f0000125f0000145f0000185f00001a5f00001c5f00001e5f0000205f0000245f0000265f0000d8600000f8600000546100007e61000096610000ffffff7f
+    m_ExpandedIDs: ffffffff000000001e5f0000225f0000245f0000265f0000285f00002a5f00002c5f00002e5f0000305f0000325f0000345f0000365f0000385f0000ffffff7f
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -1067,8 +1068,8 @@ MonoBehaviour:
     m_Tooltip: 
   m_Pos:
     serializedVersion: 2
-    x: 260
-    y: 1146
+    x: 0
+    y: 980
     width: 2680
     height: 317
   m_SerializedDataModeController:
@@ -1144,7 +1145,7 @@ MonoBehaviour:
     scrollPos: {x: 0, y: 0}
     m_SelectedIDs: 14900000
     m_LastClickedID: 36884
-    m_ExpandedIDs: 00000000105f0000125f0000145f0000165f0000185f00001a5f00001c5f00001e5f0000205f0000225f0000245f0000265f0000
+    m_ExpandedIDs: 000000001e5f0000205f0000225f0000245f0000265f0000285f00002a5f00002c5f00002e5f0000305f0000325f0000345f0000365f0000385f0000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -1172,7 +1173,7 @@ MonoBehaviour:
     scrollPos: {x: 0, y: 0}
     m_SelectedIDs: 
     m_LastClickedID: 0
-    m_ExpandedIDs: 00000000105f0000125f0000145f0000165f0000185f00001a5f00001c5f00001e5f0000205f0000225f0000245f0000265f0000
+    m_ExpandedIDs: 000000001e5f0000205f0000225f0000245f0000265f0000285f00002a5f00002c5f00002e5f0000305f0000325f0000345f0000365f0000385f0000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
