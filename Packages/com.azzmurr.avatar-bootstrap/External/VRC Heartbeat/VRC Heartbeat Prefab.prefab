@@ -310,7 +310,7 @@ MonoBehaviour:
             id: ff35f4834ed718b49b43a6294c2eeb0d|Packages/com.azzmurr.avatar-bootstrap/External/VRC
               Heartbeat/Menu/Heartbeat Slider.asset
             objRef: {fileID: 11400000, guid: ff35f4834ed718b49b43a6294c2eeb0d, type: 2}
-          prefix: Interactions/Heartbeat
+          prefix: Avatar/Heartbeat
         prms:
         - parameters:
             version: 1
