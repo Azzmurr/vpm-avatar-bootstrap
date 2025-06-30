@@ -241,7 +241,7 @@ MonoBehaviour:
       data:
         version: 3
         fromPath: Clothes
-        toPath: Avatar/Clothes
+        toPath: Items/Clothes
 --- !u!114 &1797332133990862725
 MonoBehaviour:
   m_ObjectHideFlags: 0

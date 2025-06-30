@@ -1,13 +1,10 @@
 {
   "name": "com.azzmurr.avatar-bootstrap",
   "displayName": "Azzmurr - Avatar Bootstrapper",
-  "version": "1.4.4",
+  "version": "1.5.0",
   "unity": "2022.3",
   "description": "Simple Package with diferent assets to help with avatar creation",
   "vrchatVersion": "2022.1.1",
-  "legacyFolders": {
-    "Packages\\com.dreadscripts.hierarchyplus": ""
-  },
   "vpmDependencies": {
     "vrchat.blackstartx.gesture-manager": ">=3.9.0",
     "gogoloco": ">=1.8.0",
