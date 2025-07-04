@@ -1,0 +1,183 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &6181334506236077048
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 7151413755990916903}
+  - component: {fileID: 5071229600417354852}
+  - component: {fileID: 8043259960964823938}
+  - component: {fileID: 778693807440936301}
+  - component: {fileID: 8172188859793405436}
+  - component: {fileID: 3466545129811364950}
+  m_Layer: 0
+  m_Name: SPS Menu
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &7151413755990916903
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6181334506236077048}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: -0.47901, y: -0.81041133, z: -0.9463366}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &5071229600417354852
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6181334506236077048}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d9e94e501a2d4c95bff3d5601013d923, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  version: 3
+  unityVersion: 2022.3.22f1
+  vrcfuryVersion: 1.1238.0
+  somethingIsBroken: 0
+  config:
+    features: []
+  content:
+    rid: 6732950807207215104
+  references:
+    version: 2
+    RefIds:
+    - rid: 6732950807207215104
+      type: {class: MoveMenuItem, ns: VF.Model.Feature, asm: VRCFury}
+      data:
+        version: 3
+        fromPath: SPS
+        toPath: SPS/Sockets
+--- !u!114 &8043259960964823938
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6181334506236077048}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d9e94e501a2d4c95bff3d5601013d923, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  version: 3
+  unityVersion: 2022.3.22f1
+  vrcfuryVersion: 1.1238.0
+  somethingIsBroken: 0
+  config:
+    features: []
+  content:
+    rid: 6732950807207215105
+  references:
+    version: 2
+    RefIds:
+    - rid: 6732950807207215105
+      type: {class: MoveMenuItem, ns: VF.Model.Feature, asm: VRCFury}
+      data:
+        version: 3
+        fromPath: Rock-it
+        toPath: SPS/Rock-it
+--- !u!114 &778693807440936301
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6181334506236077048}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d9e94e501a2d4c95bff3d5601013d923, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  version: 3
+  unityVersion: 2022.3.22f1
+  vrcfuryVersion: 1.1238.0
+  somethingIsBroken: 0
+  config:
+    features: []
+  content:
+    rid: 6732950807207215106
+  references:
+    version: 2
+    RefIds:
+    - rid: 6732950807207215106
+      type: {class: MoveMenuItem, ns: VF.Model.Feature, asm: VRCFury}
+      data:
+        version: 3
+        fromPath: TF
+        toPath: SPS/TF
+--- !u!114 &8172188859793405436
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6181334506236077048}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d9e94e501a2d4c95bff3d5601013d923, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  version: 3
+  unityVersion: 2022.3.22f1
+  vrcfuryVersion: 1.1238.0
+  somethingIsBroken: 0
+  config:
+    features: []
+  content:
+    rid: 6732950807207215107
+  references:
+    version: 2
+    RefIds:
+    - rid: 6732950807207215107
+      type: {class: MoveMenuItem, ns: VF.Model.Feature, asm: VRCFury}
+      data:
+        version: 3
+        fromPath: CockToggles
+        toPath: SPS/Taper
+--- !u!114 &3466545129811364950
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6181334506236077048}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d9e94e501a2d4c95bff3d5601013d923, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  version: 3
+  unityVersion: 2022.3.22f1
+  vrcfuryVersion: 1.1238.0
+  somethingIsBroken: 0
+  config:
+    features: []
+  content:
+    rid: 6732950807207215108
+  references:
+    version: 2
+    RefIds:
+    - rid: 6732950807207215108
+      type: {class: MoveMenuItem, ns: VF.Model.Feature, asm: VRCFury}
+      data:
+        version: 3
+        fromPath: ZQuine
+        toPath: SPS/ZQuine
