@@ -1,6 +1,6 @@
 {
   "dependencies": {
-    "com.azzmurr.avatar-bootstrap": {
+    "com.azzmurr.common": {
       "version": "file:com.azzmurr.avatar-bootstrap",
       "depth": 0,
       "source": "embedded",
